@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
+*{
+  font-family: 'Manrope', sans-serif;
+}
+
+/* ========= TASKFEED ======== */
+.login-button {
+  text-decoration: none !important;
+  color: white;
+}
+
+.status{
+  /*border: 1px solid black;*/
+  padding-left:200px;
+}
+
+.header{
+  background-color:yellow;
+}
+
+.marginButton{
+  margin-right: 10px;
+}
+
+/* ========= TASKFEED ======== */
+.add-task-card {
+  padding: 0.2em 3em !important;
+  text-align: center !important;
+  min-width: 100%;
+  font-size: 24px;
+  background-color: #ffde58 !important;
+  color: #2a2a00 !important;
+}
+
+
+/* ========= TASKCARD ======== */
+.task-card {
+  width: 500px;
+  max-width: 500;
+  min-width: 500;
+  background-color: rgb(202, 202, 238);
+  margin: 2em 0em;
+  width: 100%;
+}
+
+.task-card-unstarted {
+  width: 500px;
+  max-width: 500;
+  min-width: 500;
+  background-color: rgb(69, 179, 78);
+  margin: 2em 0em;
+  width: 100%;
+}
+
+.task-card-in-progress {
+  width: 500px;
+  max-width: 500;
+  min-width: 500;
+  background-color: rgb(125, 200, 2);
+  margin: 2em 0em;
+  width: 100%;
+}
+
+.req-chip {
+  margin-right: 0.5em;
+}
+
+.req-row {
+  display: flex;
+}
+
+.field-row {
+  display: flex;
+  margin: 1em 0em;
+}
+
+.field-icon {
+  font-size: 24px;
+  margin-right: 1em;
+}
+
+.card-last-row{
+  display:flex;
+  justify-content: space-between;
+}
+
+.dialog-header {
+  padding: 1rem;
+}
+
+.skeleton-card {
+  margin: 1em 0em;
+}
+
+/* ========= NEWTASK ======== */
+.new-task-field {
+  margin: 1em 1em 1em 0 !important;
+}
+
+.state-select-field{
+  margin:1em -1em 0 0 !important;
+}
+
+.entire-address-field{
+  display:flex;
+  /* justify-content: space-between; */
+}
+
+.entire-address-field > * {
+  margin: 0px 10px;
+}
+
+.addTask{
+  border-radius: 30px;
+  border: 0.02px, solid black;
+  box-shadow: 10px 10px 42px 0px rgba(0,0,0,0.75);
+  height: 50px;
+  width: 50px;
+  position: fixed;
+  bottom: 15px;
+  left: 15px;
+}
+
+.fixPlus
+{
+  padding: 10px;
+}
+
+
+/* ========= ACCOUNT ======== */
+.current-task {
+  margin: auto;
+  margin-bottom: 0.2em;
+  text-align: center !important;
+  width: 200px;
+  height: 100px;
+  font-size: 24px;
+  background-color: #ffecb3 !important;
+  color: #2a2a00 !important;
+}
+
+.current-task-action {
+  /* padding: 0.2em 3em !important; */
+  text-align: center !important;
+  width: 200px;
+  height: 100px;
+  font-size: 24px;
+}
+
+.past-task {
+  margin: auto;
+  margin-bottom: 0.2em;
+  text-align: center !important;
+  width: 200px;
+  height: 100px;
+  font-size: 24px;
+  background-color: #ffecb3 !important;
+  color: #2a2a00 !important;
+}
+
+.past-task-action {
+  /* padding: 0.2em 3em !important; */
+  text-align: center !important;
+  font-size: 24px;
+  width: 200px;
+  height: 100px;
+}
+
+.account-task-list {
+  padding: 0.2em 1.0em !important;
+  /* border: 1px solid black; */
+  /* flex:  0; */
+  /* padding: 0.75rem 1rem; */
+  width:50%;
+  display:inline-block;
+}
+
+.my-tasks{
+  display:flex;
+  text-align:center;
+  justify-content: space-between;
+  /* border: 1px solid black; */
+ 
+}
