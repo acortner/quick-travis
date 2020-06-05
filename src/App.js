@@ -20,7 +20,17 @@ const THEME = createMuiTheme({
   }
 });
 
-//Authoerization config
+var firebaseConfig = {
+  apiKey: "AIzaSyCa-2nP5S12sWGsBv1ln1_9adxubHTD0mw",
+  authDomain: "quick-travis-434c3.firebaseapp.com",
+  databaseURL: "https://quick-travis-434c3.firebaseio.com",
+  projectId: "quick-travis-434c3",
+  storageBucket: "quick-travis-434c3.appspot.com",
+  messagingSenderId: "1075108870838",
+  appId: "1:1075108870838:web:8d1f259d09fae5281e0417"
+};
+// Initialize Firebase
+//firebase.initializeApp(firebaseConfig);
 
 function App() {
   const [user, setUser] = useState(null);
