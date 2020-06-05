@@ -8,3 +8,6 @@ cache:
 script:
   - npm test
   - npm run build
+after_success:
+  - npm install -g firebase-tools
+  - firebase deploy --token 1//0ddaGgaUx-w2RCgYIARAAGA0SNwF-L9Ir8srO4u5S37Pv242RqUyTs7JCU2jnWdnLzVonrettDY0QA7uXZMcLhdaExsxYgH-GxBE --non-interactive
